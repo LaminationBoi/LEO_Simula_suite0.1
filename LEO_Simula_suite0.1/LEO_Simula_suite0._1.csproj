@@ -110,7 +110,6 @@
     <Content Include="Data\Images\Drag_and_drop_picture1.jpg" />
     <Content Include="MetroFramework.txt" />
     <Content Include="Data\Batteries\Konion.txt" />
-    <Content Include="Guidance.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\Aerodynamics\" />

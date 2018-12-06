@@ -29,7 +29,7 @@ namespace LEO_Simula_suite0._1
 
             InitializeComponent();
 
-
+            //Load the batteries names found in the txt in the baterry data directory
             string[] FileNames = Directory.GetFiles(BatteryDirectory, "*.txt").Select(Path.GetFileName).ToArray();
 
             for (int i = 0; i < FileNames.Length ; i++)
@@ -49,7 +49,6 @@ namespace LEO_Simula_suite0._1
 
 
         //Read data from the battery data txt
-        //Needed: Support for multi amps
         private void Battery_read_data()
         {
 
@@ -62,7 +61,7 @@ namespace LEO_Simula_suite0._1
 
             for (int b = 0; b < count; b++)
             {
-                new 
+
                 for (int i = 6; i < lenght; i++)
                 {
                     //Voltage.Add(Convert.ToInt32(content[b].Split('/')[0]));
@@ -86,7 +85,7 @@ namespace LEO_Simula_suite0._1
         }
 
         //Graphs the data of a battery with the starting and cutoff voltage.
-        //Needed: Format graph
+
         private void Battery_grapher(int Discharge)
         {
             string SeriesName = Discharge + "Amps";
@@ -107,17 +106,6 @@ namespace LEO_Simula_suite0._1
 
            
         }
-
-
-        // Triggered when Batteries-Data-Import is clicked. Shows import image and allows drag and drop
-        //Needed: Drag and drop not supported
-        private void importToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-
-        }
-
-
 
     }
 }

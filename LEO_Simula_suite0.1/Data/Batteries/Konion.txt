@@ -4,7 +4,7 @@ Cell type = "LION"
 Nominal voltage = "3.7" [V]
 Nominal capacity = "3120" [mah]
 Internal resistance = "10" [mOhm]
-Voltage/ mah for x1 amps/ mah for x2 amps/ mah for xn amps
+Voltage1/2/3/4
 1/2/3/4
 2/2/3/4
 3/2/3/4
