@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+using NPlot;
+using System.Drawing;
+
+namespace LEO_Simula_suite0._1
+{
+    class Battery_class
+    {
+
+        public List<int> Voltage = new List<int>();
+        public List<int> CapacityA = new List<int>();
+        public List<int> CapacityB = new List<int>();
+
+
+        public void ReadData ()
+        {
+            string[] content = System.IO.File.ReadLines(@"C:\Users\Guillermo Presa\source\repos\LEO_Simula_suite0.1\LEO_Simula_suite0.1\Data\Batteries\Konion.txt").ToArray();
+            string name = content[0].Split('"', '"')[1];
+            int lenght = content.Length;
+            int InternalResistance = Convert.ToInt32(content[4].Split('"', '"')[1]);
+            int NomCapacity = Convert.ToInt32(content[3].Split('"', '"')[1]);           //Check whether its an int first
+            int count = content[5].Split('/').Length - 1;
+
+            for (int i = 6; i < lenght; i++)
+            {
+                Voltage.Add(Convert.ToInt32(content[i].Split('/')[0]));
+                CapacityA.Add(Convert.ToInt32(content[i].Split('/')[1]));
+                CapacityB.Add(Convert.ToInt32(content[i].Split('/')[2]));
+            }
+
+        }
+
+        public void GraphData()
+        {
+
+
+
+        }
+
+
+    }
+}

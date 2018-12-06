@@ -1,0 +1,6 @@
+﻿
+Inmediate work plan:
+
+Batteries graphs
+Drag and drop support for importing data
+

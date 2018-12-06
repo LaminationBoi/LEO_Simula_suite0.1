@@ -1,0 +1,11 @@
+﻿
+Batteries data structure:
+
+Decimal separator = "."
+Data separator = "/"
+Cell type = "LIPO/LION"
+Cell name = "NAME"
+Cell voltage = "" [V]
+Cell capacity = "" [mah]
+
+Voltage/ mah for x1 amps/ mah for x2 amps/ mah for xn amps

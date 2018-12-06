@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEO_Simula_suite0._1", "LEO_Simula_suite0.1\LEO_Simula_suite0._1.csproj", "{19C9F33D-A25C-4C19-A769-8A4D949D151C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{024E6A57-3407-48D7-9EAE-0A8BA7827607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C9F33D-A25C-4C19-A769-8A4D949D151C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C9F33D-A25C-4C19-A769-8A4D949D151C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C9F33D-A25C-4C19-A769-8A4D949D151C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C9F33D-A25C-4C19-A769-8A4D949D151C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95C37325-8448-4D4A-96C7-A6AE31DA61CC}
+	EndGlobalSection
+EndGlobal
