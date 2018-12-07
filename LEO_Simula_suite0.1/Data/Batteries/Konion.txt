@@ -1,4 +1,5 @@
-﻿Document type = "Battery"
+﻿Battery
+Name/ type/ Ca
 Cell name = "Sony_Konion_18650_VTC5_3120mah"
 Cell type = "LION"
 Nominal voltage = "3.7" [V]
